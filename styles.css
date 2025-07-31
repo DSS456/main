@@ -1,0 +1,36 @@
+/* ANIMACIONES EN INPUT Y TEXTAREA */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* transición suave */
+  }
+  
+  input:hover, textarea:hover {
+    border-color: #2600fc;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    transform: scale(1.02); /* efecto de agrandamiento suave */
+  }
+  
+  /* BOTÓN CON ANIMACIÓN HOVER */
+  button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #007BFF;
+    color: rgb(102, 0, 0);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #454d55;
+    transform: scale(1.05); /* agranda un poquito */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+  }
+  
